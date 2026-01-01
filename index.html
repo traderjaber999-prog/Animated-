@@ -62,6 +62,9 @@
           <a href="https://t.me/@millionirejaber"><img class="help-center" src="compress-i/help-sticker.webp" alt="help-center"> </a>
           
           <input class="input" alt="comment"><span class="input-word">Give me some advice</span></input>
+          <div class="circle-1"> </div>
+          <div class="circle-2"> </div>
+          <div class="circle-3"> </div>
 
              
 
@@ -319,7 +322,46 @@
             border-radius: 30px;
 
          }
+         .circle-1{
+            height: 50px;
+            width: 50px;
+            background-color: #4a0e0e8a;
+            border-radius: 50%;
+            animation: circlee 3s 0s alternate none infinite ease-in-out;
+         }
+         .circle-2{
+            height: 50px;
+            width: 50px;
+            background-color: #d17373;
+            border-radius: 50%;
+            animation: circlee2 3s 0s alternate none infinite ease;
+         }
+
+         .circle-3{
+            height: 50px;
+            width: 50px;
+            background-color: #499742;
+            border-radius: 50%;
+            animation: circlee3 3s 0s alternate none infinite ease-in-out;
+         }
          
+         @keyframes circlee{
+            0%{transform: translate(0px,-190px);}
+            50%{transform: translate(0px,-340px);}
+            100%{transform: translate(0px,-190px);}
+         }
+
+          @keyframes circlee2{
+            0%{transform: translate(57px,-240px);}
+            50%{transform: translate(57px,-390px);}
+            100%{transform: translate(57px,-240px);}
+         }
+
+          @keyframes circlee3{
+            0%{transform: translate(110px,-430px);}
+            50%{transform: translate(110px,-290px);}
+            100%{transform: translate(110px,-430px);}
+         }
 
          @keyframes alhamdulillah-animation {
             0%{transform: translate(-250px,0);}
@@ -448,6 +490,14 @@
     position: absolute;
     left:20px ;
     top:1230px;
+
+  }
+  .circle-1,.circle-2,.circle-3 {
+     height: 20px;
+     width: 20px;
+     
+    
+
 
   }
 
