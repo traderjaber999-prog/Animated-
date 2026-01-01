@@ -42,7 +42,7 @@
 
          <div id="fb"><a href="https://www.facebook.com/junaid.al.jaber"><button style="color:rgb(61, 53, 8);border-radius: 5px;border: 1px solid green;" >This is my facebook Id</button></a><br>
             <p></p>
-            <a href="https://www.instagram.com/moonlit.aura_/"><button style="color:rgb(61, 53, 8);border-radius: 5px;border: 1px solid green;" >This is my Instagram  Id</button></a>
+            <a href="https://www.instagram.com/moonlit.aura_/?hl=en"><button style="color:rgb(61, 53, 8);border-radius: 5px;border: 1px solid green;" >This is my Instagram  Id</button></a>
          </div>
    
           <img class="logo-image" src="compress-i/sticker-eye.webp" alt="logo">
@@ -280,8 +280,9 @@
          }
          .input-word{
             position: absolute;
-            right: 79%;
+          
             color: #4A0E0E;
+            left: 11%;
 
          }
          .input:hover{
@@ -309,8 +310,12 @@
          }
 
          .dhaka-metro{
-            width: 320px;
+            width: 620px;
             height: auto;
+            position: absolute;
+            top:19%;
+            left: 50%;
+            border-radius: 30px;
          }
          
 
@@ -333,6 +338,7 @@
 
     @media only screen and (max-width:600px){
         body{
+            overflow-x: hidden;
       
             
          
@@ -376,11 +382,13 @@
         font-style: italic;
     }
     #fb{
-     transform: translate(225px,-210px);
+     transform: translate(215px,-210px);
+     right: 5%;
+
     }
     .logo-image{
         width:80px ;
-        right: 5%;
+        right: 5% !;
     }
          .overflow-8-image{
             width: 220px;
@@ -407,10 +415,19 @@
 }
 
 .input-word{
-    left: 35%;
+    left: 32%;
     white-space: nowrap;
+    transform: translateY(-1px);
 
 }
+  .dhaka-metro{
+    border-radius: 15px;
+    position: absolute;
+    left:20px ;
+    top:1230px;
+    width: 320px;
+  }
+
   @keyframes alhamdulillah-animation {
             0%{transform: translate(-250px,0);}
             100%{transform: translate(400px,0px);}
