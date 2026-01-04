@@ -129,11 +129,18 @@
         font-style: italic;
     }
 
-    #fb{
+    .fb-insta{
+        color: #7391d1d7;
         margin-right: 70%;
         transform: translateY(-80px);
         display: inline-block;
+        text-decoration: none;
+        border-radius: 8px;
+        padding: 5px;
         white-space: nowrap;
+        font-weight: 700;
+         border:2px solid rgba(255, 255, 255, 0.534);
+         background-color: #6881736b;
 
          }
 
@@ -187,8 +194,8 @@
             height: auto;
          }
          .input{
-           border:2px solid rgba(255, 255, 255, 0.534);
-        background-color: #6881736b;
+             border:2px solid rgba(255, 255, 255, 0.534);
+            background-color: #6881736b;
             position: absolute;
             left:1.5%;
             border-radius: 10px;
@@ -337,9 +344,10 @@
         line-height: 1.5;
         font-style: italic;
     }
-    #fb{
+    .fb-insta{
      transform: translate(215px,-210px);
      right: 5%;
+     font-size: 13px;
 
     }
     .logo-image{
