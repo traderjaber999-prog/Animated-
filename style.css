@@ -129,10 +129,10 @@
         font-style: italic;
     }
 
-    .fb-insta{
+    .fb,.insta{
         color: #7391d1d7;
         margin-right: 70%;
-        transform: translateY(-80px);
+        transform: translateY(-60px);
         display: inline-block;
         text-decoration: none;
         border-radius: 8px;
@@ -152,7 +152,7 @@
             height: auto;
             color: #4A0E0E;
          }
-         
+
 
          .overflow-8-image{
             overflow-x: hidden;
@@ -301,7 +301,7 @@
 
     @media only screen and (max-width:600px){
         body{
-            overflow-x: hidden;
+            overflow-x: hidden !important;
       
             
          
@@ -344,10 +344,17 @@
         line-height: 1.5;
         font-style: italic;
     }
-    .fb-insta{
-     transform: translate(215px,-210px);
-     right: 5%;
-     font-size: 13px;
+    .fb{
+     transform: translate(156%,-230px);
+     position: absolute;
+     font-size: 12px;
+
+    }
+    .insta{
+        transform: translate(150%,-265px);
+     position: absolute;
+     font-size: 12px;
+
 
     }
     .logo-image{
@@ -409,7 +416,7 @@
     border-radius: 15px;
     position: absolute;
     left:20px ;
-    top:1230px;
+    top:140%;
 
   }
   .circle-1,.circle-2,.circle-3 {
